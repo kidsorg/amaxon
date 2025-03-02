@@ -18,7 +18,7 @@ public class UserDatabaseExample {
             System.out.println("2. Login");
             System.out.print("Choose an option: ");
             int choice = scanner.nextInt();
-            scanner.nextLine(); // Consume newline
+            scanner.nextLine(); // Consume newline or makes it possible 
 
             switch (choice) {
                 case 1:
