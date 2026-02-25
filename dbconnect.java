@@ -39,6 +39,7 @@ public class DBConnectionExample {
                     System.out.println("Connection closed.");
                 }
             } catch (SQLException e) {
+                System.out.println("SQLException is written");
                 e.printStackTrace();
             }
         }
